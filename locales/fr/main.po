@@ -1,0 +1,14 @@
+msgid "previous entry"
+msgstr "billet plus ancien"
+
+msgid "next entry"
+msgstr "billet plus r&eacute;cent"
+
+msgid "All tags"
+msgstr "Tous les mots-cl&eacute;s"
+
+msgid "Tags"
+msgstr "Mots-cl&eacute;s"
+
+msgid "Tag"
+msgstr "Mot-cl&eacute;"
