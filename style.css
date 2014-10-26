@@ -1,4 +1,4 @@
-/* 
+/*
 
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
@@ -570,8 +570,8 @@ ul.post-tags li {
 .tags ul {}
 .tags li {}
 
-/* a completer separement ou globalement pour le sidebar et la page 
-specifique des tags avec les differentes class des tags en fonction 
+/* a completer separement ou globalement pour le sidebar et la page
+specifique des tags avec les differentes class des tags en fonction
 de leur frequence - voir 9/ classes communes */
 
 /* ------------------------------------------------------------
@@ -605,7 +605,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
 /* tags dans le sidebar et dans la page les regroupant
 (exemple ici pour un nuage) */
 
-.dc-tags #content ul li, .dc-tags #content ul li a, 
+.dc-tags #content ul li, .dc-tags #content ul li a,
 .tags ul li, .tags ul li a {
 	display: inline;
 	width: auto;
@@ -726,7 +726,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
 
 /* ------------------------------------------------------------
 	11. PAGES SPECIFIQUES
-	j'indique le marqueur du body, a completer pour cibler 
+	j'indique le marqueur du body, a completer pour cibler
 	plus precisement (cf l'exemple ci-dessus pour les tags)
 ------------------------------------------------------------- */
 
@@ -781,7 +781,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
 	ici ceux le plus souvent necessaires
 --------------------------------------------------- */
 
-.post, .post-content, .footnotes, .attachments, 
+.post, .post-content, .footnotes, .attachments,
 .post-info-co, #comments, #footer {
 	clear: both;
 }
