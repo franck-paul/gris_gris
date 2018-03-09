@@ -1,149 +1,130 @@
 /*
-
-# -- BEGIN LICENSE BLOCK ----------------------------------
-#
-# This file is part of Gris-Gris, a Dotclear 2 theme.
-#
-# Copyright (c) Franck Paul and contributors
-# http://open-time.net/
-#
-#
-# Licensed under the GPL version 2.0 license.
-# See LICENSE file or
-# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-#
-# -- END LICENSE BLOCK ------------------------------------
-
-
  STRUCTURE POUR UNE COLONNE, MENU EN BAS EN DEUX PARTIES, LARGEUR FIXE
 
 
  --------------------------------------------------------------
-	AVANT TOUTE CHOSE
-	remise à zéro de toutes les marges des grands blocs pour que
-	tous les navigateurs calculent depuis le même point de départ
+  AVANT TOUTE CHOSE
+  remise à zéro de toutes les marges des grands blocs pour que
+  tous les navigateurs calculent depuis le même point de départ
 --------------------------------------------------------------- */
-html, body, #page, #top, #prelude, #wrapper, #footer,
-#main, #content,
-#sidebar, #blognav, #blogextra {
-	margin: 0;
-	padding: 0;
-}
 
+html, body, #page, #top, #prelude, #wrapper, #footer, #main, #content, #sidebar, #blognav, #blogextra {
+  margin: 0;
+  padding: 0;
+}
 /* --------------------------------------------------------------
-	CENTRAGE DE LA PAGE DANS LA FENETRE DU NAVIGATEUR.
-	(supprimer ces lignes si on ne veut pas centrer)
-	Note : on peut remplacer la valeur (ici 0) des marges au-dessus
-	et en dessous de la page par la valeur de son choix (px ou em).
+  CENTRAGE DE LA PAGE DANS LA FENETRE DU NAVIGATEUR.
+  (supprimer ces lignes si on ne veut pas centrer)
+  Note : on peut remplacer la valeur (ici 0) des marges au-dessus
+  et en dessous de la page par la valeur de son choix (px ou em).
 --------------------------------------------------------------- */
-body {
-	text-align: center;
-}
-#page {
-	margin: 0 auto;
-	text-align: left;
-	position: relative;
-}
 
-/* -------------------------------------------------------------
-	STRUCTURE FIXE - 1 COLONNE - MENU EN BAS EN DEUX PARTIES
-	Vous pouvez modifier 760px par la valeur de votre choix.
---------------------------------------------------------------- */
+body {
+  text-align: center;
+}
 #page {
-	width: 100%; /* 760px; */
-	max-width: 1600px;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+/* -------------------------------------------------------------
+  STRUCTURE FIXE - 1 COLONNE - MENU EN BAS EN DEUX PARTIES
+  Vous pouvez modifier 760px par la valeur de votre choix.
+--------------------------------------------------------------- */
+
+#page {
+  width: 100%;
+  /* 760px; */
+  max-width: 1600px;
 }
 #top {
-	height: 100px; /* a modifier par la valeur de votre choix */
+  height: 100px;
+  /* a modifier par la valeur de votre choix */
 }
 #top h1 {
-	margin: 0;
-	padding: 0;
-	height: 100px;
-	/*
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  /*
 idem que pour #top */
-	width: 100%;
+  width: 100%;
 }
 #top h1 a {
-	display: block;
-	width: 100%;
-	height: 100px;
+  display: block;
+  width: 100%;
+  height: 100px;
 }
 #prelude {
-	display: block;
-	position: absolute;
-	right: 2em;
-	top: 0;
-	text-align: right;
-	height: 225px;
+  display: block;
+  position: absolute;
+  right: 2em;
+  top: 0;
+  text-align: right;
+  height: 225px;
 }
 #wrapper {
-	padding: 30px;
+  padding: 30px;
 }
 .dc-home #wrapper {
-	text-align: center;
+  text-align: center;
 }
 #main {
-	width: 100%;
-
-/* 760px; */
-	margin: auto;
-	text-align: left;
+  width: 100%;
+  /* 760px; */
+  margin: auto;
+  text-align: left;
 }
 #content {
-	margin: 0 1.5em 1.5em;
+  margin: 0 1.5em 1.5em;
 }
 /* -------------------------------------------------------------
-	PARTICULARITE : CONTENT DIVISE EN DEUX COLONNES EGALES
+  PARTICULARITE : CONTENT DIVISE EN DEUX COLONNES EGALES
 --------------------------------------------------------------- */
+
 #content-text {
-	width: 46%;
-	float: right;
-	padding-left: 1em;
-	margin-top: 50px;
-	margin-bottom: 25px;
+  width: 46%;
+  float: right;
+  padding-left: 1em;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 #content-img {
-	width: 46%;
-	float: left;
-	padding-right: 1em;
+  width: 46%;
+  float: left;
+  padding-right: 1em;
 }
 #footer {
-	clear: both;
-	text-align: center;
-	margin: 30px 0 0;
-	padding: 15px;
+  clear: both;
+  text-align: center;
+  margin: 30px 0 0;
+  padding: 15px;
 }
 #sidebar {
-	clear: both;
-	text-align: left;
-	width: 46%;
+  clear: both;
+  text-align: left;
+  width: 46%;
 }
 .dc-home #sidebar {
-	width: auto;
+  width: auto;
 }
-#sidebar ul {
-
-}
-#sidebar li {
-
-}
+#sidebar ul {}
+#sidebar li {}
 #blognav {
-	margin-top: 50px;
-	padding: 0 20px 0 50px;
+  margin-top: 50px;
+  padding: 0 20px 0 50px;
 }
 #blogextra {
-	padding: 0 20px 0 50px;
+  padding: 0 20px 0 50px;
 }
 .dc-home #blognav {
-	margin: 30px 0;
-	padding: 20px;
-	width: 40%;
-	float: left;
+  margin: 30px 0;
+  padding: 20px;
+  width: 40%;
+  float: left;
 }
 .dc-home #blogextra {
-	margin: 30px 0;
-	padding: 20px;
-	width: 40%;
-	float: right;
+  margin: 30px 0;
+  padding: 20px;
+  width: 40%;
+  float: right;
 }

@@ -1,23 +1,16 @@
 <?php
-# -- BEGIN LICENSE BLOCK ----------------------------------
-# This file is part of Gris-Gris, a theme for Dotclear 2.
-#
-# Copyright (c) Franck Paul and contributors
-# carnet.franck.paul@gmail.com
-#
-# Licensed under the GPL version 2.0 license.
-# A copy of this license is available in LICENSE file or at
-# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-# -- END LICENSE BLOCK ------------------------------------
+/**
+ * @brief gris-gris, a theme for Dotclear 2
+ *
+ * @package Dotclear
+ * @subpackage Themes
+ *
+ * @copyright Olivier Meunier & Association Dotclear
+ * @copyright GPL-2.0-only
+ */
 
-if (!defined('DC_RC_PATH')) { return; }
+namespace themes\gris_gris;
 
-$core->addBehavior('publicPrepend',array('behaviorGrisGrisTheme','publicPrepend'));
+if (!defined('DC_RC_PATH')) {return;}
 
-class behaviorGrisGrisTheme
-{
-	public static function publicPrepend($core)
-	{
-		$core->themes->loadModuleL10N($GLOBALS['__theme'],$GLOBALS['_lang'],'main');
-	}
-}
+\l10n::set(dirname(__FILE__) . '/locales/' . $_lang . '/main');
