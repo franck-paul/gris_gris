@@ -19,6 +19,10 @@ $this->registerModule(
     '1.7',                                                   // Version
     [
         'requires' => [['core', '2.19']], // Dependencies
-        'type'     => 'theme'             // Type
+        'type'     => 'theme',            // Type
+
+        'details'    => 'https://open-time.net/?q=gris-gris',       // Details URL
+        'support'    => 'https://github.com/franck-paul/gris-gris', // Support URL
+        'repository' => 'https://raw.githubusercontent.com/franck-paul/gris-gris/main/dcstore.xml'
     ]
 );
