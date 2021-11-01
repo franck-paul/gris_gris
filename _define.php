@@ -23,6 +23,6 @@ $this->registerModule(
 
         'details'    => 'https://open-time.net/?q=gris-gris',       // Details URL
         'support'    => 'https://github.com/franck-paul/gris-gris', // Support URL
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/gris-gris/main/dcstore.xml'
+        'repository' => 'https://raw.githubusercontent.com/franck-paul/gris-gris/master/dcstore.xml'
     ]
 );
