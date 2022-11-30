@@ -8,10 +8,11 @@
  * @copyright Franck Paul (carnet.franck.paul@gmail.com)
  * @copyright GPL-2.0
  */
+
 namespace themes\gris_gris;
 
 if (!defined('DC_RC_PATH')) {
     return;
 }
 
-\l10n::set(dirname(__FILE__) . '/locales/' . $_lang . '/main');
+\l10n::set(__DIR__ . '/locales/' . \dcCore::app()->lang . '/main');

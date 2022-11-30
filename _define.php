@@ -13,16 +13,16 @@ if (!defined('DC_RC_PATH')) {
 }
 
 $this->registerModule(
-    'Gris-Gris',                                             // Name
-    'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika', // Description
-    'Franck Paul',                                           // Author
-    '1.7',                                                   // Version
+    'Gris-Gris',
+    'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
+    'Franck Paul',
+    '2.0',
     [
-        'requires' => [['core', '2.19']], // Dependencies
-        'type'     => 'theme',            // Type
+        'requires' => [['core', '2.24']],
+        'type'     => 'theme',
 
-        'details'    => 'https://open-time.net/?q=gris-gris',       // Details URL
-        'support'    => 'https://github.com/franck-paul/gris-gris', // Support URL
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/gris-gris/master/dcstore.xml'
+        'details'    => 'https://open-time.net/?q=gris-gris',
+        'support'    => 'https://github.com/franck-paul/gris-gris',
+        'repository' => 'https://raw.githubusercontent.com/franck-paul/gris-gris/master/dcstore.xml',
     ]
 );
