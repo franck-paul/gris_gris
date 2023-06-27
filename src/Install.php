@@ -14,9 +14,7 @@ declare(strict_types=1);
 
 namespace Dotclear\Plugin\gris_gris;
 
-use dcCore;
 use dcNsProcess;
-use Exception;
 
 class Install extends dcNsProcess
 {
@@ -32,18 +30,6 @@ class Install extends dcNsProcess
     {
         if (!static::$init) {
             return false;
-        }
-
-        try {
-            // Update
-            $old_version = dcCore::app()->getVersion(My::id());
-            if (version_compare((string) $old_version, '13.42', '<')) {
-                // Do some stuff
-            }
-
-            // Init
-        } catch (Exception $e) {
-            dcCore::app()->error->add($e->getMessage());
         }
 
         return true;
