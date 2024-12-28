@@ -11,32 +11,43 @@ body {
   color: #ccc;
   background: transparent url('images/fond.png') repeat-y center top;
   font-size: 76%;
-  font-family: "lucida grande", "gill sans", arial, sans-serif;
+  font-family: 'lucida grande', 'gill sans', arial, sans-serif;
 }
 
-h1 {}
+h1 {
+}
 
-h2 {}
+h2 {
+}
 
-h3 {}
+h3 {
+}
 
-h4 {}
+h4 {
+}
 
-h5 {}
+h5 {
+}
 
-h6 {}
+h6 {
+}
 
-p {}
+p {
+}
 
-img {}
+img {
+}
 
-sup {}
+sup {
+}
 
 abbr,
-acronym {}
+acronym {
+}
 
 blockquote,
-q {}
+q {
+}
 
 blockquote {
   background: transparent url(images/quote.gif) no-repeat scroll left top;
@@ -44,20 +55,25 @@ blockquote {
   padding: 0pt 0pt 0pt 70px;
 }
 
-cite {}
-
-[lang="fr"] q,
-q[lang="fr"] {
-  quotes: "« "" »";
+cite {
 }
 
-ul {}
+[lang='fr'] q,
+q[lang='fr'] {
+  quotes: '« ' ' »';
+}
 
-ol {}
+ul {
+}
 
-dl {}
+ol {
+}
 
-form {}
+dl {
+}
+
+form {
+}
 
 fieldset {
   border: none;
@@ -79,7 +95,8 @@ input:hover {
   border-color: #d8ff00;
 }
 
-label {}
+label {
+}
 
 textarea {
   width: 95%;
@@ -91,31 +108,42 @@ a {
   outline: none;
 }
 
-a:link {}
-
-a:visited {}
-
-a:hover {}
-
-a:focus {}
-
-a[hreflang]:after {
-  content: "\0000a0["attr(hreflang) "]";
+a:link {
 }
 
-a[hreflang|="fr"]:after {
-  content: "";
+a:visited {
+}
+
+a:hover {
+}
+
+a:focus {
+}
+
+a[hreflang]:after {
+  content: '\0000a0[' attr(hreflang) ']';
+}
+
+a[hreflang|='fr']:after {
+  content: '';
 }
 
 a[hreflang] {
   content: normal !important;
 }
 
-a img {}
+a img {
+}
 
 code,
 pre {
-  font: 1em "liberation mono", "Andale Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
+  font:
+    1em 'liberation mono',
+    'Andale Mono',
+    'DejaVu Sans Mono',
+    'Courier New',
+    Courier,
+    monospace;
 }
 
 code {
@@ -152,15 +180,28 @@ hr {
   margin: 2em 10em;
 }
 
+sup,
+sub {
+  font-size: calc(0.5em + 4px);
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
 sup {
-  line-height: 1em;
+  top: calc(-0.83 * (1em - 4px));
+}
+
+sub {
+  top: calc(0.415 * (1em - 4px));
 }
 
 /* ------------------------------------------------------------
   3. PAGE
 ------------------------------------------------------------- */
 
-#page {}
+#page {
+}
 
 /* ------------------------------------------------------------
   4. HAUT DE PAGE
@@ -193,7 +234,8 @@ sup {
   5. WRAPPER MAIN CONTENT
 ------------------------------------------------------------- */
 
-#wrapper {}
+#wrapper {
+}
 
 #main {
   font-size: 1.05em;
@@ -204,7 +246,8 @@ sup {
   color: #fff;
 }
 
-#content {}
+#content {
+}
 
 #content-img {
   color: #fff;
@@ -220,7 +263,7 @@ sup {
 
 #content-img h2 {
   text-align: center;
-  font-family: "lucida grande", "gill sans", arial, sans-serif;
+  font-family: 'lucida grande', 'gill sans', arial, sans-serif;
   font-weight: normal;
   font-size: 1em;
   text-transform: uppercase;
@@ -233,7 +276,8 @@ sup {
   color: #fff;
 }
 
-#content-text {}
+#content-text {
+}
 
 #content-text h2 {
   /*  background: transparent url('images/topic.png') no-repeat left top; */
@@ -252,13 +296,17 @@ sup {
   color: #ccc;
 }
 
-#content-info {}
+#content-info {
+}
 
-#content-info h2 {}
+#content-info h2 {
+}
 
-#content-info p {}
+#content-info p {
+}
 
-.content-inner {}
+.content-inner {
+}
 
 .pagination {
   border-radius: 5px;
@@ -284,11 +332,14 @@ sup {
   6. BILLETS
 ------------------------------------------------------------- */
 
-.post {}
+.post {
+}
 
-.post.first {}
+.post.first {
+}
 
-.post.odd {}
+.post.odd {
+}
 
 .post h3,
 .post h4 {
@@ -299,14 +350,16 @@ sup {
   display: none;
 }
 
-.post-title {}
+.post-title {
+}
 
 .post-info,
 .page-info {
   font-style: italic;
 }
 
-.post-tags {}
+.post-tags {
+}
 
 ul.post-tags {
   list-style-type: none;
@@ -345,21 +398,24 @@ ul.post-tags li {
   text-align: right;
 }
 
-.read-it {}
+.read-it {
+}
 
 .footnotes {
   font-size: 0.9em;
   text-align: left;
 }
 
-.footnotes h4 {}
+.footnotes h4 {
+}
 
 #content-text .footnotes p {
   text-indent: 0;
   margin-top: 1.2em;
 }
 
-.post-info-co {}
+.post-info-co {
+}
 
 .comment_count {
   margin: 0pt 0pt 0pt 1.2em;
@@ -379,54 +435,74 @@ ul.post-tags li {
   background: transparent url('images/box.png') no-repeat left top;
 }
 
-#attachments {}
+#attachments {
+}
 
-#attachments h3 {}
+#attachments h3 {
+}
 
-#attachments ul {}
+#attachments ul {
+}
 
-#attachments ul li {}
+#attachments ul li {
+}
 
-#attachments li.audio {}
+#attachments li.audio {
+}
 
-#attachments li.package {}
+#attachments li.package {
+}
 
-#attachments li.text {}
+#attachments li.text {
+}
 
 /* ------------------------------------------------------------
   7. COMMENTAIRES, PINGS
 ------------------------------------------------------------- */
 
-#comments {}
+#comments {
+}
 
-#pings {}
+#pings {
+}
 
-#pr {}
+#pr {
+}
 
-#comment-form {}
+#comment-form {
+}
 
-#comments h3 {}
+#comments h3 {
+}
 
-#pings h3 {}
+#pings h3 {
+}
 
-#pr h3 {}
+#pr h3 {
+}
 
-#comment-form h3 {}
+#comment-form h3 {
+}
 
 #comments dl {
   font-size: 0.93em;
   line-height: 1.5em;
 }
 
-#comments dt {}
+#comments dt {
+}
 
-#comments dd {}
+#comments dd {
+}
 
-#comments .first {}
+#comments .first {
+}
 
-#comments .odd {}
+#comments .odd {
+}
 
-#comments .me {}
+#comments .me {
+}
 
 #comments dd.me {
   color: #d8ff00;
@@ -452,15 +528,20 @@ ul.post-tags li {
   line-height: 1.5em;
 }
 
-#pings dt {}
+#pings dt {
+}
 
-#pings dd {}
+#pings dd {
+}
 
-#pings .first {}
+#pings .first {
+}
 
-#pings .odd {}
+#pings .odd {
+}
 
-#pings .me {}
+#pings .me {
+}
 
 #pings dd.me {
   color: #d8ff00;
@@ -470,13 +551,17 @@ ul.post-tags li {
   padding-left: 3em;
 }
 
-#pr dl {}
+#pr dl {
+}
 
-#pr dd {}
+#pr dd {
+}
 
-#comment-form fieldset {}
+#comment-form fieldset {
+}
 
-.field {}
+.field {
+}
 
 .field label {
   clear: left;
@@ -495,15 +580,20 @@ ul.post-tags li {
   padding: 0.5em;
 }
 
-#comment-form input[type=submit] {}
+#comment-form input[type='submit'] {
+}
 
-#comment-form input[type=reset] {}
+#comment-form input[type='reset'] {
+}
 
-.form-help {}
+.form-help {
+}
 
-#ping-url {}
+#ping-url {
+}
 
-#comments-feed {}
+#comments-feed {
+}
 
 /* ------------------------------------------------------------
   8. SIDEBAR
@@ -513,11 +603,14 @@ ul.post-tags li {
   color: #ccc;
 }
 
-#blognav {}
+#blognav {
+}
 
-#blogextra {}
+#blogextra {
+}
 
-#blogextra a {}
+#blogextra a {
+}
 
 #blognav a:hover,
 #blogextra a:hover {
@@ -532,17 +625,21 @@ ul.post-tags li {
   font-size: 1em;
 }
 
-#sidebar ul {}
+#sidebar ul {
+}
 
-#sidebar li {}
+#sidebar li {
+}
 
 /* boites du menu des widgets livres avec Dotclear */
 
-#search {}
+#search {
+}
 
-#search form {}
+#search form {
+}
 
-#search input[type=text] {
+#search input[type='text'] {
   background: #fff url(images/magnifier.png) no-repeat scroll 0.5em center;
   border: 1px solid #fff;
   margin-left: 3.5em;
@@ -555,47 +652,62 @@ ul.post-tags li {
 
 /* ou #search #q */
 
-#search input[type=submit] {}
+#search input[type='submit'] {
+}
 
 /* ou #search .submit */
 
-#topnav {}
+#topnav {
+}
 
 #topnav ul li,
 #topnav ul li a {
   display: inline;
 }
 
-.topnav-arch {}
+.topnav-arch {
+}
 
-.topnav-home {}
+.topnav-home {
+}
 
-.selected {}
+.selected {
+}
 
-.langs {}
+.langs {
+}
 
-.categories {}
+.categories {
+}
 
-.syndicate {}
+.syndicate {
+}
 
 .syndicate ul {
   list-style: none;
   margin-left: -16px;
 }
 
-.lastposts {}
+.lastposts {
+}
 
-.lastcomments {}
+.lastcomments {
+}
 
-.text {}
+.text {
+}
 
-.links {}
+.links {
+}
 
-.tags {}
+.tags {
+}
 
-.tags ul {}
+.tags ul {
+}
 
-.tags li {}
+.tags li {
+}
 
 /* a completer separement ou globalement pour le sidebar et la page
 specifique des tags avec les differentes class des tags en fonction
@@ -613,7 +725,8 @@ de leur frequence - voir 9/ classes communes */
   color: #fff;
 }
 
-#footer p {}
+#footer p {
+}
 
 /* ------------------------------------------------------------
   10. CLASSES COMMUNES
@@ -756,11 +869,11 @@ feed.png a piocher dans le theme par defaut par ex.) */
 }
 
 .little-text {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .little-upper-text {
-  font-size: .8em;
+  font-size: 0.8em;
   text-transform: uppercase;
 }
 
@@ -770,7 +883,8 @@ feed.png a piocher dans le theme par defaut par ex.) */
   plus precisement (cf l'exemple ci-dessus pour les tags)
 ------------------------------------------------------------- */
 
-.dc-home {}
+.dc-home {
+}
 
 .dc-home #blogextra a {
   color: #fff;
@@ -780,15 +894,20 @@ feed.png a piocher dans le theme par defaut par ex.) */
   color: #ccc;
 }
 
-.dc-post {}
+.dc-post {
+}
 
-.dc-categories {}
+.dc-categories {
+}
 
-.dc-category {}
+.dc-category {
+}
 
-.dc-archive {}
+.dc-archive {
+}
 
-.dc-archive-month {}
+.dc-archive-month {
+}
 
 .dc-archive-month #content-text p.post-content {
   margin-left: 3em;
@@ -808,13 +927,17 @@ feed.png a piocher dans le theme par defaut par ex.) */
   margin-left: 2em;
 }
 
-.dc-tags {}
+.dc-tags {
+}
 
-.dc-tag {}
+.dc-tag {
+}
 
-.dc-404 {}
+.dc-404 {
+}
 
-.dc-search {}
+.dc-search {
+}
 
 /* ---------------------------------------------------
   12. ET POUR FINIR NE PAS OUBLIER LES CLEARERS
@@ -840,7 +963,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
   padding: 0px;
 }
 
-#content img[src^="/public/"] {
+#content img[src^='/public/'] {
   border: 8px solid #ccc;
   padding: 1px;
 }
