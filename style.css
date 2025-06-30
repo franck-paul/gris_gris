@@ -14,65 +14,15 @@ body {
   font-family: 'lucida grande', 'gill sans', arial, sans-serif;
 }
 
-h1 {
-}
-
-h2 {
-}
-
-h3 {
-}
-
-h4 {
-}
-
-h5 {
-}
-
-h6 {
-}
-
-p {
-}
-
-img {
-}
-
-sup {
-}
-
-abbr,
-acronym {
-}
-
-blockquote,
-q {
-}
-
 blockquote {
   background: transparent url(index.php?tf=images/quote.gif) no-repeat scroll left top;
   margin: 1em;
   padding: 0pt 0pt 0pt 70px;
 }
 
-cite {
-}
-
 [lang='fr'] q,
 q[lang='fr'] {
   quotes: '« ' ' »';
-}
-
-ul {
-}
-
-ol {
-}
-
-dl {
-}
-
-form {
 }
 
 fieldset {
@@ -85,7 +35,6 @@ fieldset {
 input {
   padding: 0.25em 0.6em;
   border: 1px solid #333;
-  background: #fff;
   border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -93,9 +42,6 @@ input {
 
 input:hover {
   border-color: #d8ff00;
-}
-
-label {
 }
 
 textarea {
@@ -108,18 +54,6 @@ a {
   outline: none;
 }
 
-a:link {
-}
-
-a:visited {
-}
-
-a:hover {
-}
-
-a:focus {
-}
-
 a[hreflang]:after {
   content: '\0000a0[' attr(hreflang) ']';
 }
@@ -130,9 +64,6 @@ a[hreflang|='fr']:after {
 
 a[hreflang] {
   content: normal !important;
-}
-
-a img {
 }
 
 code,
@@ -200,9 +131,6 @@ sub {
   3. PAGE
 ------------------------------------------------------------- */
 
-#page {
-}
-
 /* ------------------------------------------------------------
   4. HAUT DE PAGE
 ------------------------------------------------------------- */
@@ -210,10 +138,6 @@ sub {
 #top {
   background: transparent url(index.php?tf=images/titre.png) no-repeat 50% 50%;
   text-align: left;
-}
-
-#top h1 {
-  /*  background: transparent url(index.php?tf=images/mini-logo.png) no-repeat 1em 1.5em; */
 }
 
 #top h1 a {
@@ -234,9 +158,6 @@ sub {
   5. WRAPPER MAIN CONTENT
 ------------------------------------------------------------- */
 
-#wrapper {
-}
-
 #main {
   font-size: 1.05em;
   text-align: justify;
@@ -244,9 +165,6 @@ sub {
 
 #main a {
   color: #fff;
-}
-
-#content {
 }
 
 #content-img {
@@ -276,9 +194,6 @@ sub {
   color: #fff;
 }
 
-#content-text {
-}
-
 #content-text h2 {
   /*  background: transparent url(index.php?tf=images/topic.png) no-repeat left top; */
   min-height: 1.5em;
@@ -294,18 +209,6 @@ sub {
 
 #content-text a:hover {
   color: #ccc;
-}
-
-#content-info {
-}
-
-#content-info h2 {
-}
-
-#content-info p {
-}
-
-.content-inner {
 }
 
 .pagination {
@@ -332,15 +235,6 @@ sub {
   6. BILLETS
 ------------------------------------------------------------- */
 
-.post {
-}
-
-.post.first {
-}
-
-.post.odd {
-}
-
 .post h3,
 .post h4 {
   clear: both;
@@ -350,15 +244,9 @@ sub {
   display: none;
 }
 
-.post-title {
-}
-
 .post-info,
 .page-info {
   font-style: italic;
-}
-
-.post-tags {
 }
 
 ul.post-tags {
@@ -398,23 +286,14 @@ ul.post-tags li {
   text-align: right;
 }
 
-.read-it {
-}
-
 .footnotes {
   font-size: 0.9em;
   text-align: left;
 }
 
-.footnotes h4 {
-}
-
 #content-text .footnotes p {
   text-indent: 0;
   margin-top: 1.2em;
-}
-
-.post-info-co {
 }
 
 .comment_count {
@@ -435,73 +314,13 @@ ul.post-tags li {
   background: transparent url(index.php?tf=images/box.png) no-repeat left top;
 }
 
-#attachments {
-}
-
-#attachments h3 {
-}
-
-#attachments ul {
-}
-
-#attachments ul li {
-}
-
-#attachments li.audio {
-}
-
-#attachments li.package {
-}
-
-#attachments li.text {
-}
-
 /* ------------------------------------------------------------
   7. COMMENTAIRES, PINGS
 ------------------------------------------------------------- */
 
-#comments {
-}
-
-#pings {
-}
-
-#pr {
-}
-
-#comment-form {
-}
-
-#comments h3 {
-}
-
-#pings h3 {
-}
-
-#pr h3 {
-}
-
-#comment-form h3 {
-}
-
 #comments dl {
   font-size: 0.93em;
   line-height: 1.5em;
-}
-
-#comments dt {
-}
-
-#comments dd {
-}
-
-#comments .first {
-}
-
-#comments .odd {
-}
-
-#comments .me {
 }
 
 #comments dd.me {
@@ -528,39 +347,12 @@ ul.post-tags li {
   line-height: 1.5em;
 }
 
-#pings dt {
-}
-
-#pings dd {
-}
-
-#pings .first {
-}
-
-#pings .odd {
-}
-
-#pings .me {
-}
-
 #pings dd.me {
   color: #d8ff00;
   background: transparent url(index.php?tf=images/me.png) no-repeat top left;
   margin-left: 0em;
   min-height: 3em;
   padding-left: 3em;
-}
-
-#pr dl {
-}
-
-#pr dd {
-}
-
-#comment-form fieldset {
-}
-
-.field {
 }
 
 .field label {
@@ -580,36 +372,12 @@ ul.post-tags li {
   padding: 0.5em;
 }
 
-#comment-form input[type='submit'] {
-}
-
-#comment-form input[type='reset'] {
-}
-
-.form-help {
-}
-
-#ping-url {
-}
-
-#comments-feed {
-}
-
 /* ------------------------------------------------------------
   8. SIDEBAR
 ------------------------------------------------------------- */
 
 #sidebar {
   color: #ccc;
-}
-
-#blognav {
-}
-
-#blogextra {
-}
-
-#blogextra a {
 }
 
 #blognav a:hover,
@@ -625,24 +393,15 @@ ul.post-tags li {
   font-size: 1em;
 }
 
-#sidebar ul {
-}
-
-#sidebar li {
-}
-
 /* boites du menu des widgets livres avec Dotclear */
 
-#search {
-}
-
-#search form {
-}
-
-#search input[type='text'] {
-  background: #fff url(index.php?tf=images/magnifier.png) no-repeat scroll 0.5em center;
+#search input[type='search'] {
+  background-image: url(index.php?tf=images/magnifier.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-x: 0.5em;
+  background-position-y: center;
   border: 1px solid #fff;
-  margin-left: 3.5em;
   padding: 0.25em 0.25em 0.25em 2.5em;
   width: 12em;
   border-radius: 4px;
@@ -651,62 +410,16 @@ ul.post-tags li {
 }
 
 /* ou #search #q */
-
-#search input[type='submit'] {
-}
-
 /* ou #search .submit */
-
-#topnav {
-}
 
 #topnav ul li,
 #topnav ul li a {
   display: inline;
 }
 
-.topnav-arch {
-}
-
-.topnav-home {
-}
-
-.selected {
-}
-
-.langs {
-}
-
-.categories {
-}
-
-.syndicate {
-}
-
 .syndicate ul {
   list-style: none;
   margin-left: -16px;
-}
-
-.lastposts {
-}
-
-.lastcomments {
-}
-
-.text {
-}
-
-.links {
-}
-
-.tags {
-}
-
-.tags ul {
-}
-
-.tags li {
 }
 
 /* a completer separement ou globalement pour le sidebar et la page
@@ -723,9 +436,6 @@ de leur frequence - voir 9/ classes communes */
 
 #footer a {
   color: #fff;
-}
-
-#footer p {
 }
 
 /* ------------------------------------------------------------
@@ -883,30 +593,12 @@ feed.png a piocher dans le theme par defaut par ex.) */
   plus precisement (cf l'exemple ci-dessus pour les tags)
 ------------------------------------------------------------- */
 
-.dc-home {
-}
-
 .dc-home #blogextra a {
   color: #fff;
 }
 
 .dc-home #blogextra a:hover {
   color: #ccc;
-}
-
-.dc-post {
-}
-
-.dc-categories {
-}
-
-.dc-category {
-}
-
-.dc-archive {
-}
-
-.dc-archive-month {
 }
 
 .dc-archive-month #content-text p.post-content {
@@ -925,18 +617,6 @@ feed.png a piocher dans le theme par defaut par ex.) */
 .dc-archive-month #content-text p.post-info-co {
   text-align: left;
   margin-left: 2em;
-}
-
-.dc-tags {
-}
-
-.dc-tag {
-}
-
-.dc-404 {
-}
-
-.dc-search {
 }
 
 /* ---------------------------------------------------
