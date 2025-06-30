@@ -1,11 +1,11 @@
 <modules xmlns:da="http://dotaddict.org/da/">
   <module id="gris_gris">
     <name>Gris-Gris</name>
-    <version>6.0</version>
+    <version>6.1</version>
     <author>Franck Paul</author>
     <desc>Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika</desc>
-    <date>2025-06-27T13:17:02+0200</date>
-    <file>https://github.com/franck-paul/gris_gris/releases/download/6.0/theme-gris_gris-6.0.zip</file>
+    <date>2025-06-30T10:16:06+0200</date>
+    <file>https://github.com/franck-paul/gris_gris/releases/download/6.1/theme-gris_gris-6.1.zip</file>
     <da:dcmin>2.35</da:dcmin>
     <da:details>https://open-time.net/?q=gris_gris</da:details>
     <da:support>https://github.com/franck-paul/gris_gris</da:support>
