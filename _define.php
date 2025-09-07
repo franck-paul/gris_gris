@@ -13,9 +13,9 @@ $this->registerModule(
     'Gris-Gris',
     'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
     'Franck Paul',
-    '6.1',
+    '7.0',
     [
-        'date'     => '2025-06-30T10:16:06+0200',
+        'date'     => '2025-09-07T14:19:42+0200',
         'requires' => [['core', '2.36']],
         'type'     => 'theme',
         'overload' => true,
