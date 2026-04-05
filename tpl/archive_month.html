@@ -55,12 +55,12 @@
 
     <!-- # Entry with an excerpt -->
     <tpl:EntryIf extended="1">
-      <p class="post-content">{{tpl:EntryExcerpt remove_html="1" cut_string="200"}}&nbsp;[&hellip;]</p>
+      <p class="post-content">{{tpl:EntryExcerpt strip_tags="1" cut_string="200"}}&nbsp;[&hellip;]</p>
     </tpl:EntryIf>
 
     <!-- # Entry without excerpt -->
     <tpl:EntryIf extended="0">
-      <p class="post-content">{{tpl:EntryContent remove_html="1" cut_string="200"}}&nbsp;[&hellip;]</p>
+      <p class="post-content">{{tpl:EntryContent strip_tags="1" cut_string="200"}}&nbsp;[&hellip;]</p>
     </tpl:EntryIf>
 
     <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
