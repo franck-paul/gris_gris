@@ -16,9 +16,9 @@ if (isset($this) && is_object($this) && method_exists($this, 'registerModule') &
         'Gris-Gris',
         'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
         'Franck Paul',
-        '7.2',
+        '7.3',
         [
-            'date'     => '2026-04-05T11:57:36+0200',
+            'date'     => '2026-11-06T10:07:27+0100',
             'requires' => [['core', '2.36']],
             'type'     => 'theme',
             'overload' => true,
